@@ -1,0 +1,53 @@
+/* pages/article/article.wxss */
+page {
+  background-color: #eee;
+}
+
+.article-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 60rpx 40rpx;
+  color: #333;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+}
+
+.article-container image {
+  width: 100%;
+  height: 400rpx;
+  margin-bottom: 6rpx;
+}
+.article-container .title1 {
+  position: relative;
+  margin-top: -84rpx;
+  background-color: rgba(22, 22, 22, 0.7);
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  clear: both;
+}
+
+.article-container .title2 {
+  display: flex;
+  align-items: center;
+  height: 160rpx;
+  width: 640rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.article-container .title2 text {
+  width: 560rpx; 
+  padding-right: 6rpx;
+}
+
+.article-container .title2 image {
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+  text-align: right;
+}

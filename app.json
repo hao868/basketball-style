@@ -1,0 +1,18 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/fashion/fashion",
+    "pages/article/article",
+    "pages/pictrue/pictrue",
+    "pages/vidoes/vidoes"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Basketball Style",
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  }
+}

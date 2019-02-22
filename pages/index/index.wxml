@@ -1,0 +1,18 @@
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" class='getUserInfoBtn' open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" mode='widthFix' class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <!-- <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+      Hello!
+    </block>
+  </view>
+
+
+<view class='index-container'>
+  <image mode='widthFix' class='logo' src='../../images/logo.png'></image>
+  <view class='index-btn' bindtap='toFashion'>篮球风尚</view>
+  <view class='index-btn' bindtap='toArticle'>篮球文章</view>
+  <view class='index-btn' bindtap='toPictrue'>篮球图片</view>
+  <view class='index-btn' bindtap='toVidoes'>篮球视频</view>
+</view>

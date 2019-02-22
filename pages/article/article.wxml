@@ -1,0 +1,51 @@
+<!--pages/article/article.wxml-->
+<view class='article-container'>
+  <image  src="{{useArticleData[0].articleImg}}"></image>
+  <view class='title1'>{{useArticleData[0].articleTitle}}</view>
+  <view class='title2'>
+    <text>{{useArticleData[1].articleTitle}}</text> 
+    <image src='{{useArticleData[1].articleImg}}'></image>
+  </view>
+  <view class='title2'>
+    <text>{{useArticleData[2].articleTitle}}</text> 
+    <image src='{{useArticleData[2].articleImg}}'></image>
+  </view>
+  <view class='title2' style='border:none'>
+    <text>{{useArticleData[3].articleTitle}}</text> 
+    <image src='{{useArticleData[3].articleImg}}'></image>
+  </view>
+</view>
+
+<view class='article-container'>
+  <image  src='{{useArticleData[4].articleImg}}'></image>
+  <view class='title1'>{{useArticleData[4].articleTitle}}</view>
+  <view class='title2'>
+    <text>{{useArticleData[5].articleTitle}}</text> 
+    <image src='{{useArticleData[5].articleImg}}'></image>
+  </view>
+  <view class='title2'>
+    <text>{{useArticleData[6].articleTitle}}</text> 
+    <image src='{{useArticleData[6].articleImg}}'></image>
+  </view>
+  <view class='title2' style='border:none'>
+    <text>{{useArticleData[7].articleTitle}}</text> 
+    <image src='{{useArticleData[7].articleImg}}'></image>
+  </view>
+</view>
+
+<view class='article-container'>
+  <image  src='{{useArticleData[8].articleImg}}'></image>
+  <view class='title1'>{{useArticleData[8].articleTitle}}</view>
+  <view class='title2'>
+    <text>{{useArticleData[9].articleTitle}}</text> 
+    <image src='{{useArticleData[9].articleImg}}'></image>
+  </view>
+  <view class='title2'>
+    <text>{{useArticleData[10].articleTitle}}</text> 
+    <image src='{{useArticleData[10].articleImg}}'></image>
+  </view>
+  <view class='title2' style='border:none'>
+    <text>{{useArticleData[11].articleTitle}}</text> 
+    <image src='{{useArticleData[11].articleImg}}'></image>
+  </view>
+</view>
